@@ -10,14 +10,16 @@ The SIP protocol is a signaling protocol used with most modern Unified Communica
 {{{{{{ blue-modern
     SIPphone1->SIP-GW: send ringing
     SIP-GW->SIPphone1: send alerting
-    SIPphone1->SIP-GW->PSTN-Phone: ringing
+    SIPphone1->PSTN-Phone: ringing
     PSTN-Phone->SIPphone1: alerting
 }}}}}}
+
 
 @startuml
 SIP2 -> SIPTrunk: Authentication Request
 SIPTrunk --> SIP2: Authentication Response
 @enduml
+
 
 * debug messages
  * 200 ok
