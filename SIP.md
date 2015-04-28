@@ -6,12 +6,12 @@ The SIP protocol is a signaling protocol used with most modern Unified Communica
 * typically uses port 5060 and 5061 for secure
 * Call flow diagrams can be easily made from SIP calls with basic tools in RTMT.
  * example:
- {{{{{{ blue-modern
+{{{{{{ blue-modern
     SIPphone1->SIP-GW: send ringing
     SIPphone1<-SIP-GW: send alerting
     SIPphone1->SIP-GW->PSTN-Phone: ringing
     SIPphone1<-PSTN-Phone: alerting
- }}}}}}
+}}}}}}
 * debug messages
  * 200 ok
  * 401 error
