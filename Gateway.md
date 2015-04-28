@@ -1,12 +1,12 @@
 # Gateway
 
-## SIP Gateway
+### SIP Gateway
 
-## MGCP Gateway
+### MGCP Gateway
 
-## H.323 Gateway
+### H.323 Gateway
 
-## POTS gateway
-### FXS
-### FXO
-### E&M
+### POTS gateway
+* FXS
+* FXO
+* E&M
