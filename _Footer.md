@@ -1,1 +1,1 @@
-[[http://www.cciecarl.com]]
+All rights reserved [[http://www.cciecarl.com]]
