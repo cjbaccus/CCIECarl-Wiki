@@ -14,6 +14,11 @@ The SIP protocol is a signaling protocol used with most modern Unified Communica
     PSTN-Phone->SIPphone1: alerting
 }}}}}}
 
+@startuml
+SIP2 -> SIPTrunk: Authentication Request
+SIPTrunk --> SIP2: Authentication Response
+@enduml
+
 * debug messages
  * 200 ok
  * 401 error
