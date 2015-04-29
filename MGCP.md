@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # MGCP
 The MGCP protocol for gateways is a master->slave relationship protocol.  The Cisco Communications Manager acts as the master and the gateway is the slave based on the commands the CUCM sends.
 
